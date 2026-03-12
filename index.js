@@ -8,7 +8,6 @@ app.listen(3000)
 function startBot() {
   const bot = mineflayer.createBot({
     host: "EH_Event.aternos.me",
-    port: PORTNUMMER, // falls vorhanden
     username: "Bot123",
     version: false
   })
